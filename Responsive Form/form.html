@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Forms</title>
+</head>
+<body>
+    
+    <section class="main_section">
+        <h2> Book a Appoinment</h2>
+        <div class="container">
+            <div class="contact_info">
+                <img src="image/developer akram (3).jpg" alt="developer akram">
+            </div>
+            <div class="contact_form">
+                <form action="https://formspree.io/f/xleqpjqb"
+                method="POST">
+                   
+                    <input id="yourName" type="text" placeholder=" e.g developer akram">
+                    <input id="yourEmail" type="email" placeholder=" e.g info@gmail.com">
+                    <input id="yourNumber" type="number" placeholder=" e.g 0164844484">
+                    <div class="gander">
+                    <label class="gander_label" for=""><span>Chosse Your Gander:</span> </label>
+                    <input name="Gander" type="radio"> <span>Male</span>
+                    <input name="Gander" type="radio"> <span>Female</span>
+                    </div>
+                    <input class="file" type="file">
+                    <textarea name="" id="" cols="30" rows="8" placeholder="Write Your thoughts"></textarea>
+                    <button class="btn">Submit Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>

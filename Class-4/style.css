@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/* Hero Section Start */
+.hero-section{
+    width: 1280px;
+    margin: auto;
+    background-color: #FEFFF5;
+    padding: 50px;
+    
+}
+.hero-content{
+    
+}
+.hero-section .hero-content .logo{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0px 4px 20px 0px #0000001A;
+    border-radius: 50%;
+}
+.hero-section .hero-content h1{
+    color: #0A8080;
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: 700;
+    width: 827px;
+    font-weight: 400;
+    margin: auto;
+    text-align: center;
+}
+.hero-section .hero-content p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.hero-section .hero-content .btn{
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    background-color: #0A8080;
+    padding: 8px 28px;
+    border-radius: 10px;
+    display: block;
+    box-shadow: 0px 4px 4px 0px #00000033;
+    margin: auto;
+    border: none;
+}
+.hero-section .hero-content .hero-img{
+    width: 601px;
+    margin: auto;
+    display: block;
+}
+/* Hero Section End */
+
+/* Blogs Section Start */
+.blog-section{
+    padding: 55px 0;
+}
+.blog-section .blog-content h2{
+    color: #0A8080;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.blog-section .blog{
+    width: 942px;
+    margin: auto;
+    box-shadow: 0px 4px 20px 0px #00000026;
+    border-radius: 10px;
+    padding: 40px;
+    margin-bottom: 60px;
+}
+.blog-section .blog h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    
+}
+.blog-section .blog p{
+    line-height: 24px;
+    margin: 25px 0;
+   
+}
+.blog-section .btn{
+    background-color: #0A8080;
+    color: #fff;
+    padding: 10px 30px;
+    box-shadow: 0px 4px 4px 0px #00000033;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+/* Blog Section End */
+
+/* Footer Section */
+.footer{
+    background-color: #0A8080;
+
+}
+.footer p{
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}

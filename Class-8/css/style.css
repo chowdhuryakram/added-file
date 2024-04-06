@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    --bg-color: #FFFCF5;
+    --nav-color: #6A6E78;
+    --p-color: #545360;
+    --btn_color: #3936C4;
+    --heading-color:#21202A;
+    --font-familly: "Poppins", sans-serif;
+    font-size: 0.625rem;
+}
+body{
+    font-family: var(--font-familly);
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+
+/* Start Header Section */
+.main_header{
+    background-color: var(--bg-color);
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0;
+}
+/* Header nav */
+nav ul{
+    display: flex;
+    gap: 3rem;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    font-size: 1.6rem;
+    color: var(--nav-color);
+}
+nav ul li .active{
+    color: #3936C4 ;
+}
+
+/* Header Btn */
+.header_btn .login{
+    color: #212832;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.header_btn .signup{
+    color: #212832;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border: 1px solid #E1E5E8;
+    padding: 1.2rem 2.5rem;
+    border-radius: 0.5rem;
+    margin-left: 2.5rem;
+}
+/* End Header Section */
+
+/* Start Hero Section */
+.main_hero{
+    background-color: var(--bg-color);
+    padding: 5rem 0;
+}
+.hero_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-content{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2rem;
+}
+.hero-content h1{
+    font-size: 7rem;
+    color: var(--heading-color);
+    font-weight: 600;
+    line-height: 8rem;
+}
+.hero-content p{
+    font-size: 1.6rem;
+    color: var(--p-color);
+    width: 510px;
+    line-height: 3rem;
+}
+.hero-content .btn{
+   background-color: var(--btn_color);
+    padding: 1.2rem 2.5rem;
+    color: #fff;
+    font-size: 1.8rem;
+    border-radius: 0.6rem;
+}
+/* End Hero Section */
+
+/* Brand Section Start */
+.brand{
+    padding: 8rem 0;
+}
+.brand h2{
+    text-align: center;
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: var(--heading-color);
+    padding: 3rem;
+
+}
+.brand_logo{
+    display: flex;
+    justify-content: space-around;
+    max-width: 830px;
+    margin: auto;
+    gap: 3rem;
+    align-items: center;
+}
+.brand_logo img{
+    text-align: center;
+    
+}
+/* Brand Section End */
+
+/* Services Section Start */
+.services{
+    padding: 7rem 0;
+}
+.services_content{
+    text-align: center;
+    margin: 3rem;
+}
+.services_content h2{
+    font-size: 4.2rem;
+    font-weight: 600;
+    line-height: 5.2rem;
+    color: var(--heading-color);
+}
+.services_content p{
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    color: var(--p-color);
+    width: 470px;
+    margin: auto;
+    margin-top: 2rem;
+}
+.services_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+.services_item{
+    border: 0.1rem solid #E4E4ED;
+    padding: 2rem;
+    border-radius: 0.6rem;
+    box-shadow: 0px 16px 52px 0px #21202A14;
+}
+.services_item h3{
+    font-size: 3.4rem;
+    line-height: 2.4rem;
+    font-weight: 600;
+    color: var(--heading-color);
+    margin: 2rem 0;
+}
+.services_item p{
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    font-weight: 400;
+    color: var(--p-color);
+   margin-bottom: 1.5rem;
+}
+.services_item a{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--btn_color);
+}
+/* Services Section End */
+
+/* Pricing Section Start */
+.pricing{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 11rem 0;
+}
+.pricing_content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.8rem;
+    width: 485px;
+}
+.pricing_content h3{
+    font-size: 4.8rem;
+    line-height: 5.2rem;
+    font-weight: 600;
+}
+.pricing_content p{
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    font-weight: 400;
+    color: var(--p-color);
+    margin-top: 1.5rem;
+}
+.right_ans_arrow img{
+    width: 2rem;
+}
+.right_ans_arrow h4{
+    display: inline-block;
+    color: var(--heading-color);
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.pricing_content a{
+    color: #fff;
+    font-size: 1.6rem;
+    padding: 2rem 3rem;
+    background-color: var(--btn_color);
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+
+/* Pricing Section End */
+
+/* Jobs Section Start */
+.jobs_section{
+    padding: 8rem 0rem;
+}
+.jobs_heading{
+    width: 570px;
+    text-align: center;
+    margin: auto;
+}
+.jobs_heading h2{
+    font-size: 4.8rem;
+    font-weight: 600;
+    color: var(--heading-color);
+   
+}
+.jobs_heading p{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--p-color);
+    margin: 3rem auto;
+}
+.jobs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-bottom: 2rem;
+    box-sizing: border-box;
+    margin-top: 2rem;
+}
+.jobs_item{
+    padding: 3rem 1rem;
+    border: 1px solid #E2E2EB;
+    box-sizing: border-box;
+    border-radius: 0.6rem;
+}
+.jobs_item h3{
+    width: 270px;
+    font-size: 2.4rem;
+    line-height: 3.4rem;
+    font-weight: 600;
+    color: var(--heading-color);
+}
+.jobs_item .address{
+    display: flex;
+    margin: 1.5rem 0;
+}
+.jobs_item .address img{
+    width: 1rem;
+    height: 1rem;
+}
+.jobs_item .address h5{
+    color: #545360;
+    margin-right: 5rem;
+    
+}
+.jobs_item .address h4{
+    color: #FF8100;
+    font-weight: 400;
+    text-align: right;
+}
+.jobs_apply{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 3rem 0;
+}
+.jobs_apply img{
+    width: 5.5rem;
+    margin-right: 1rem;
+}
+.jobs_apply .previous_day h6{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--heading-color);
+
+}
+.jobs_apply .previous_day p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #000000e5;
+    margin-top: 0.1rem;
+
+}
+.jobs_apply .btn{
+    background-color: var(--heading-color);
+    padding: 0.8rem 2rem;
+    border-radius: 0.6rem;
+    margin-left: 8rem;
+    color: #fff;
+}
+.jobs_show_more{
+    width: 100%;
+    text-align: center;
+    margin-top: 5rem;
+}
+.jobs_show_more .btn{
+    background-color: var(--heading-color);
+    padding: 1.5rem 3rem;
+    border-radius: 0.6rem;
+    color: #fff;
+}
+/* Jobs Section End */
+
+/* Review Section Start */
+.review{
+    padding: 3rem 0;
+}
+.review_heading_text h2{
+    font-size: 4.2rem;
+    font-weight: 600;
+    color: var(--heading-color);
+}
+.review_heading_text p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+    color: var(--p-color);
+    margin: 2rem 0;
+    width: 470px;
+}
+.review_heading_btn a{
+    padding: 2rem 3.5rem;
+    background-color: var(--btn_color);
+    color: #fff;
+    border-radius: 0.6rem;
+    font-size: 1.6rem;
+}
+.review_heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.client_reviews{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+.review_item{
+    padding: 2rem 1rem;
+    border: 1px solid #E2E2EB;
+    box-shadow: 0px 18px 46px 0px #21202A14;
+    border-radius: 0.6rem;
+    margin: 6rem 0;
+}
+.review_item .clent_img{
+   margin-top: 2rem;
+   margin-left: -1.2rem;
+}
+.review_item p{
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    font-weight: 400;
+    color: var(--p-color);
+    margin: 2rem 0;
+}
+.review_item h3{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--heading-color);
+    margin-top: 5rem;
+}
+.review_item h4{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--p-color);
+    margin-top: 0.4rem;
+}
+.review_item .star img{
+    margin-top: -1rem;
+}
+/* Review Section End */
+
+/* Resume Section Start */
+.resume{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7rem 0;
+    background-color: var(--btn_color);
+    border-radius: 0.6rem;
+    margin-bottom: 9rem;
+}
+.resume h2{
+    font-size: 4.2rem;
+    font-weight: 600;
+    color: #fff;
+    max-width: 688px;
+    margin-left: 4rem;
+}
+.resume .btn{
+    padding: 2rem 1.5rem;
+    background-color: #fff;
+    color: var(--btn_color);
+    border-radius: 0.6rem;
+    margin-right: 4rem;
+    font-size: 1.6rem;
+}
+/* Resume Section End */
+
+/* Footer Top Start */
+.main_footer_top{
+    max-width: 100%;
+    margin: auto;
+    background-image: url(../images/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 3rem 0;
+}
+.footer_top{
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #3E3C50;
+}
+.footer_top_content h2{
+    width: 570px;
+    font-size: 4.2rem;
+    font-weight: 600;
+    color: #fff;
+}
+.footer_top_btn{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--btn_color);
+    padding: 1.5rem 2rem;
+    border-radius: 0.6rem;
+}
+.footer_top_btn a{
+    color: #fff;
+    font-size: 1.6rem;
+}
+/* Footer Top End */
+
+/* Footer Section Start */
+.footer_nav{
+    background-color: var(--heading-color);
+    padding: 2rem;
+    text-align: right;
+
+}
+.footer_nav ul{
+    margin-right: 6rem;
+}
+.footer_nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 2rem;
+}
+.footer_nav ul li a{
+    color: #B5BAC6;
+    font-size: 1.6rem;
+}
+/* Footer Section End */

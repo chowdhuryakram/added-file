@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.main_hero{
+   background-color: #f3e8e8c2 ;
+}
+.hero{
+    max-width: 1170px;
+    margin: auto;
+    background-image: url(CLINETS.jpg);
+    background-position: top-center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+}
+.hero_content{
+    text-align: center;
+    padding-top: 120px;
+    color: #000;
+}
+.hero_content h1{
+    color: orange;
+    margin: 20px 0;
+}
+
+/* HTML Grid */
+.main_html_grid{
+   background-color: #f3e8e8c2 !important;
+   padding: 50px;
+   
+}
+.html_grid{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+.grid{
+    background-color: #fff;
+}
+.grid h4{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.html_grid .grid{
+    padding: 25px;
+    border-radius: 2px;
+    margin-left: 10px;
+    box-sizing: border-box;
+}
+.html_grid h4{}
+
+.html_grid1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.html_grid1 .grid{
+    padding: 25px;
+    border-radius: 2px;
+    margin-left: 10px;
+    box-sizing: border-box;
+}
