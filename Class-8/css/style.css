@@ -136,7 +136,7 @@ nav ul li .active{
 
 /* Services Section Start */
 .services{
-    padding: 7rem 0;
+    
 }
 .services_content{
     text-align: center;
@@ -238,7 +238,7 @@ nav ul li .active{
 
 /* Jobs Section Start */
 .jobs_section{
-    padding: 8rem 0rem;
+    padding: 4rem 0rem;
 }
 .jobs_heading{
     width: 570px;
@@ -341,7 +341,7 @@ nav ul li .active{
 
 /* Review Section Start */
 .review{
-    padding: 3rem 0;
+    padding: 7rem 0;
 }
 .review_heading_text h2{
     font-size: 4.2rem;
