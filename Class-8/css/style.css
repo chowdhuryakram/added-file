@@ -438,6 +438,15 @@ nav ul li .active{
 /* Resume Section End */
 
 /* Footer Top Start */
+
+.footer_top{
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .main_footer_top{
     max-width: 100%;
     margin: auto;
@@ -445,7 +454,9 @@ nav ul li .active{
     background-size: cover;
     background-repeat: no-repeat;
     padding: 3rem 0;
+    padding-top: 10rem;
 }
+
 .footer_top{
     max-width: 1170px;
     margin: auto;
